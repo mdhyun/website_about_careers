@@ -526,12 +526,13 @@ fieldset[disabled] .btn-primary.active {
   padding: 15px 30px;
 }
 .btn-xl-jobs {
-  background-color: rgb(247,69,91);
+  /*background-color: rgb(247,69,91);*/
+  background-color: #f85d71;
   padding: 15px 30px;
   font-size: 16px
 }
 .btn-xl-jobs:hover {
-    background-color: #FF8388;
+    background-color: #f7455b;
 }
 ::-moz-selection {
   color: white;
