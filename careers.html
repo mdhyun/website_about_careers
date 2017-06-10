@@ -56,6 +56,12 @@
     }
 
   </style> -->
+  <script>
+    function resizeIframe(obj) {
+
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+  </script>
 
 </head>
 
@@ -240,7 +246,7 @@
   </section>
 
   <section>
-<iframe style="width: 100vw; height:100vh;" src="https://jobs.lever.co/mercari"></iframe>
+<iframe style="width: 100vw; height:100vh;" src="https://jobs.lever.co/mercari" frameborder="0" scrolling="no" onload="resizeIframe(this);"></iframe>
 </section>
 
     <!-- <img style="width:100%;" src="img/jobs.png"> -->
