@@ -23,6 +23,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
+    <link href="css/app.us.css" rel="stylesheet">
     <link href="css/creative.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -43,7 +44,7 @@
             </div>
         </div>
     </header>
-<!-- 
+<!--
     START NAVIGATION -->
         <div id="nav_static">
         <ul class="nav navbar-nav">
@@ -53,7 +54,7 @@
             <li><a class="page-scroll" href="#contact">Contact</a></li>
         </ul>
         </div>
-        
+
         <div class="container-fluid" >
         <nav id="nav_float" style="width:100%; " class="navbar navbar-default navbar-header">
             <div class="navbar-header">
@@ -271,7 +272,7 @@
                     <!-- <a href="https://jobs.lever.co/mercari"><h3 style="line-height: 3em">See our openings</h3></a> -->
                     <a href="https://jobs.lever.co/mercari" class="btn btn-primary btn-xl-jobs page-scroll">See our openings today!</a>
                 </div>
-            </div>    
+            </div>
         </div>
     </section>
 
@@ -290,7 +291,91 @@
         </div>
       </div>
       </div>
-    </section>  
+    </section>
+
+    <footer class="global-footer">
+  <nav>
+    <ul>
+      <li class="download-app">
+        <a href="http://app.adjust.io/4n19o6?campaign=common&amp;adgroup=common.footer"><img src="//www-mercari-com.akamaized.net/assets/img/common/common/mercari_icon.png?2998523056" width="35px" alt="">Download Now for FREE!</a>
+      </li>
+      <li class="footer-cell">
+        <h2 class="footer-head">Further Information</h2>
+        <ul>
+          <li>
+            <a href="https://www.mercari.com/privacy/">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="https://www.mercari.com/tos/">Terms of Service</a>
+          </li>
+                      <li>
+              <a href="https://www.mercari.com/licenses_disclosures/">Licenses/Disclosures</a>
+            </li>
+                      <li>
+              <a href="https://www.mercari.com/about/">About Us</a>
+            </li>
+                      <li>
+              <a href="https://jobs.lever.co/mercari">Careers</a>
+            </li>
+                  </ul>
+      </li>
+      <li class="footer-cell">
+        <h2 class="footer-head">Items on Mercari</h2>
+        <ul>
+          <li>
+            <a href="https://www.mercari.com/category/">List of Categories</a>
+          </li>
+          <li>
+            <a href="https://www.mercari.com/brand/">List of Brands</a>
+          </li>
+                      <li>
+              <a href="https://www.mercari.com/area/">List of Areas</a>
+            </li>
+                            </ul>
+      </li>
+                  <li class="footer-cell">
+        <h2 class="footer-head">Need Help?</h2>
+        <ul>
+                      <li>
+              <a
+                href="https://www.mercari.com/help_center/"
+                target="_blank"              >
+                Help Center
+              </a>
+            </li>
+                            </ul>
+      </li>
+                  <li class="footer-cell">
+        <h2 class="footer-head">Country</h2>
+        <ul class="footer-nav-lang">
+          <li>
+            <a href="https://www.mercari.com/" class="active"><img src="img/flag_us.png" alt="" width="22">United States</a>
+          </li>
+          <li>
+            <a href="https://www.mercari.com/uk/" class=""><img src="img/flag_uk.png" alt="" width="22">United Kingdom</a>
+          </li>
+          <li>
+            <a href="https://www.mercari.com/jp/" class=""><img src="img/flag_jp.png" alt="" width="22">Japan</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <a href="https://www.mercari.com/" class="footer-logo">
+    <img src="img/mercarilogo.svg" width="124" height="33" alt="mercari">
+  </a>
+  <p class="footer-copyright">
+    <small>&copy; 2017 Mercari</small>
+  </p>
+      <address class="footer-address">
+      <strong>NMLS ID: 1486447</strong>
+      <br>
+      <br>
+      P.O. Box 171
+      <br>
+      San Francisco, CA 94104
+    </address>
+  </footer>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -315,7 +400,7 @@
     var menuBar = $("#nav_float").offset().top;
     var firstRun = true;
     $(window).scroll(function() {
-        
+
         var currentScroll = $(window).scrollTop();
 
         if (currentScroll < menuBar) {
@@ -339,7 +424,7 @@
                         $(this).text(comma(Math.ceil(now)));
                     }
                 });
-            }); 
+            });
         }
         //START NUM_ANIMATE_2
     });
