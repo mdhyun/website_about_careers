@@ -6,7 +6,7 @@
 html,
 body {
   height: 100%;
-  width: 100%; 
+  width: 100%;
 }
 body {
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
@@ -39,10 +39,13 @@ h5,
 h6 {
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
 }
+
 p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+
+  margin-top: 20px;
 }
 
 .centered{
@@ -105,30 +108,31 @@ p {
   -moz-box-shadow: 0 2px 15px rgba(44,62,80,0.1);
   box-shadow: 0 2px 15px rgba(44,62,80,0.1);
   background-color: white;
-} 
+}
 #nav_float li {
   color: #F05F40;
 }
-#nav_float a { 
+#nav_float a {
   /*color: rgba(240,95,64, 0.6);*/
   color: rgba(247,69,91, 0.7);
 }
-#nav_float a:hover{ 
+#nav_float a:hover{
   color: #f7455b;
 }
 /* END NAV_FLOAT */
 
 /* START NUM_ANIMATE */
-.num_animate { 
+.num_animate {
   /*color: rgba(240,95,64, 0.6); /*red*/
   color: #24D0D9; /*mint*/
-  font-weight: 700; 
+  font-weight: 700;
   font-size: 52px;
 }
 /* END NUM_ANIMATE */
 
 section {
-  padding: 100px 0;
+  /*padding: 100px 0;*/
+  padding: 5rem 0;
 }
 aside {
   padding: 100px 0;
@@ -142,7 +146,7 @@ aside {
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
-  transition: all 0.3s; 
+  transition: all 0.3s;
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #F05F40;
@@ -310,7 +314,7 @@ header .header-content .header-content-inner p {
   min-height: auto;
   background-image: linear-gradient(#47c1c7, #3dbfa1); /*green*/
   /*background-color: #24D0D9;*/
-  
+
 }
 
 #vision{
@@ -519,7 +523,9 @@ fieldset[disabled] .btn-primary.active {
 .btn {
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   border: none;
-  border-radius: 300px;
+  /*border-radius: 300px;*/
+  border-radius: 3px;
+
   font-weight: 700;
 }
 .btn-xl {
@@ -617,6 +623,19 @@ img.round{
 
 /*Sheng's part*/
 
+ p.vision-text{
+   padding-left: 40px;
+   padding-right: 40px;
+ }
+
+ img.career-people{
+   width: 300px;
+ }
+
+ h4.career-people{
+   color: rgba(0,0,0,0.4);
+   font-weight: 200;
+ }
 
 img.people{
   width:100%;
