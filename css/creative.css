@@ -132,7 +132,7 @@ p {
 
 section {
   /*padding: 100px 0;*/
-  padding: 5rem 0;
+  padding: 7rem 0;
 }
 aside {
   padding: 100px 0;
@@ -636,6 +636,11 @@ img.round{
    color: rgba(0,0,0,0.4);
    font-weight: 200;
  }
+
+img.perks{
+  width: 100px;
+}
+
 
 img.people{
   width:100%;
