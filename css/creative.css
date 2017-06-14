@@ -11,6 +11,12 @@ body {
   height: 100%;
   width: 100%;
 }
+@font-face {
+	font-family: 'Lato';
+	src: url('../font/Lato-Semibold.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
 
 
 body {
@@ -55,14 +61,19 @@ h1{
 
 h2{
   font-family: 'Lato';
-  font-weight: 400;
+  font-weight: 500;
   font-size: 38px;
+  color: #F7455B;
 }
 
 h3{
-  font-weight: 300;
+  font-weight: 500;
   font-size: 24px;
 
+}
+
+h3.light{
+  font-weight: 300;
 }
 
 p {
@@ -74,9 +85,12 @@ p {
   margin-top: 20px;
 }
 
+.white{
+  color: white;
+}
 
 p.caption{
-font-weight:300;
+font-weight:400;
 font-size: 12pt;
 }
 
@@ -100,7 +114,13 @@ font-size: 12pt;
   color: rgba(255, 255, 255, 0.7);
 }
 
+#homeHeading{
+  margin-top: 5%;
+}
 
+#career-heading{
+  margin-top: 20%;
+}
 
 /* START NAV_STATIC */
 #nav_static{
@@ -159,6 +179,13 @@ font-size: 12pt;
 
 /* START NUM_ANIMATE */
 .num_animate {
+  /*color: rgba(240,95,64, 0.6); /*red*/
+  color: #24D0D9; /*mint*/
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.num_animate2 {
   /*color: rgba(240,95,64, 0.6); /*red*/
   color: #24D0D9; /*mint*/
   font-weight: 700;
@@ -365,7 +392,10 @@ header .header-content .header-content-inner p {
 #about{
   position: relative;
   min-height: auto;
-  background: linear-gradient(to bottom left,#F7455B,#FFAB96)
+  /*background-color: #8Baaf2;*/
+    /*background-color:#fd746c;*/
+    background-color:#fc8465;
+  /*background: linear-gradient(to bottom left,#F7455B,#FFAB96)*/
   /*background-image: url('../img/mercari_bg.png');*/
   /*
   -webkit-background-size: cover;
@@ -374,6 +404,8 @@ header .header-content .header-content-inner p {
   -o-background-size: cover;*/
 
 }
+
+
 
 /*five column code*/
 
@@ -617,11 +649,14 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   padding: 15px 30px;
 }
+
 .btn-xl-jobs {
   /*background-color: rgb(247,69,91);*/
   background-color: #f85d71;
   padding: 15px 30px;
-  font-size: 16px
+  font-size: 16px;
+  font-weight: 500;
+
 }
 .btn-xl-jobs:hover {
     background-color: #f7455b;
