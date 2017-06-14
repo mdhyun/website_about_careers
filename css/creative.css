@@ -3,6 +3,9 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+
+
 html,
 body {
   height: 100%;
@@ -372,11 +375,59 @@ header .header-content .header-content-inner p {
 
 }
 
+/*five column code*/
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+/*end of five column*/
+
+
 
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
 }
+
+ @media (min-width: 1200px){
+   .container {
+       width: 960px;
+   }
+ }
+
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
@@ -670,8 +721,8 @@ img.round{
 /*Sheng's part*/
 
  p.vision-text{
-   padding-left: 40px;
-   padding-right: 40px;
+   padding-left: 20px;
+   padding-right: 20px;
  }
 
  img.career-people{
@@ -705,10 +756,23 @@ p.career-quote{
 
 }
 
+/*career quote section*/
 #career-quote{
-  /*background-color: #797788;*/
-  /*background-color: #fc8465;*/
   background: linear-gradient(to bottom left,#75C7AF, #87AAFB);
+  padding-bottom: 14rem;
+}
+
+ol.career-quote{
+display:block;
+position:absolute;
+bottom: -8rem;
+opacity: 0.7;
+}
+
+/*join team*/
+h1.jointeam{
+  color:white;
+  padding-top: 20%;
 }
 
 img.people{
