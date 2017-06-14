@@ -8,8 +8,10 @@ body {
   height: 100%;
   width: 100%;
 }
+
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
 }
 hr {
   /*border-color: rgba(71, 193, 199, 0.5);*/
@@ -40,7 +42,29 @@ h6 {
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*font size*/
+h1{
+  font-family: 'Lato';
+  font-weight: 900;
+  font-size:80px;
+
+}
+
+h2{
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 38px;
+}
+
+h3{
+  font-weight: 300;
+  font-size: 24px;
+
+}
+
 p {
+  font-family: 'Lato';
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
@@ -66,6 +90,7 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
+
 
 
 /* START NAV_STATIC */
@@ -99,6 +124,8 @@ p {
     background-color: white;
     color: #f7455b;
 }
+
+
 /* END NAV_STATIC */
 
 
@@ -329,7 +356,9 @@ header .header-content .header-content-inner p {
 #about{
   position: relative;
   min-height: auto;
-  background-image: url('../img/mercari_bg.png');/*
+  background: linear-gradient(to bottom left,#F7455B,#FFAB96)
+  /*background-image: url('../img/mercari_bg.png');*/
+  /*
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -540,6 +569,12 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl-jobs:hover {
     background-color: #f7455b;
 }
+
+
+.btn-xl-jobs:active {
+  background-color: #ae98e9 !important;
+}
+
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -569,6 +604,11 @@ div.founder{
   /*background-color: #F5F5F6;*/
   height: 360px;
   margin: 2px;
+}
+
+img.career-value{
+  margin: 0 auto;
+  width: 200px;
 }
 
 a.founder{
@@ -629,7 +669,7 @@ img.round{
  }
 
  img.career-people{
-   width: 300px;
+   width: 350px;
  }
 
  h3.career-people{
@@ -645,9 +685,25 @@ img.round{
  }
 
 img.perks{
-  width: 100px;
+  width: 100%;
 }
 
+div.career-quote{
+height:368px;
+}
+
+p.career-quote{
+  color:white;
+  font-size:24px;
+  padding-right: 5%;
+
+}
+
+#career-quote{
+  /*background-color: #797788;*/
+  /*background-color: #fc8465;*/
+  background: linear-gradient(to bottom left,#75C7AF, #87AAFB);
+}
 
 img.people{
   width:100%;

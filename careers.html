@@ -19,6 +19,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
@@ -27,24 +28,11 @@
 -->    <link href="css/creative.css" rel="stylesheet">
 <link href="css/app.us.css" rel="stylesheet">
 
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
 
-
-  <!-- <script>
-    function resizeIframe(obj) {
-
-      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-    }
-  </script> -->
 
 </head>
 
-<body>
+<body id="page-top">
 
   <header style="background-image: url('img/img_careerslanding.png')">
     <div class="header-content">
@@ -54,13 +42,46 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
-            <!-- <a class="page-scroll" href="#meettheteam" style="text-decoration: none;"><h4 class="opening">View Openings</h4></a> -->
-            <a href="#meettheteam" class="btn btn-primary btn-xl-jobs page-scroll" style="margin-top:10%;">View Openings</a>
+            <a href="#iframe-career" id="btn-job" class="btn btn-primary btn-xl-jobs page-scroll" style="margin-top:10%;">View Openings</a>
           </div>
         </div>
       </div>
     </div>
   </header>
+
+  <!--
+      START NAVIGATION -->
+          <div id="nav_static">
+          <ul class="nav navbar-nav">
+              <li><a class="page-scroll" href="#vision">VISION</a></li>
+              <li><a class="page-scroll" href="#meettheteam">BENEFITS</a></li>
+              <li><a class="page-scroll" href="#iframe-career">JOBS</a></li>
+              <li><a class="page-scroll" href="#contact">Contact</a></li>
+
+          </ul>
+          </div>
+
+          <div class="container-fluid" >
+          <nav id="nav_float" style="width:100%; " class="navbar navbar-default navbar-header">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="#page-bottom"><img src="img/img_header_mercarilogo.png" width="124" height="33" alt="mercari"></a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="padding-right: 20px">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a class="page-scroll" href="#vision">About</a></li>
+                      <li><a class="page-scroll" href="#meettheteam">BENEFITS</a></li>
+                      <li><a class="page-scroll" href="#iframe-career">JOBS</a></li>
+                      <li><a class="page-scroll" href="#contact">CONTACT</a></li>
+                  </ul>
+              </div>
+          </nav>
+          </div>
+      <!-- END NAVIGATION -->
 
 
 
@@ -68,10 +89,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-          <h1 class="section-heading">Our Vision</h1>
-          <h4 style="color: #41395A">Create value in a global marketplace where anyone can buy &amp; sell</h4>
+          <h2 class="section-heading">Our Vision</h2>
+          <h3 style="color: white;">Create value in a global marketplace where anyone can buy &amp; sell</h4>
           <hr class="light">
-          <p>Everyday our society creates new goods and throws away the old ones. We believe that goods once served its purpose for someone could still be valuable to someone else in a different place and a different situation. At Mercari, we are committed to building a peer-to-peer marketplace where anyone can buy &amp; sell easily and safely, to reduce the waste by finding value in goods that are once loved.</p>
+          <p align="justify">Everyday our society creates new goods and throws away the old ones. We believe that goods once served its purpose for someone could still be valuable to someone else in a different place and a different situation. At Mercari, we are committed to building a peer-to-peer marketplace where anyone can buy &amp; sell easily and safely, to reduce the waste by finding value in goods that are once loved.</p>
         </div>
       </div>
     </div>
@@ -82,7 +103,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 text-center">
           <div class="service-box">
-            <img src="img/img_value_gobold.svg">
+            <img class="career-value" src="img/gobold.png">
             <i class="text-primary sr-icons"></i>
             <hr class="primary">
             <h4>Go Bold</h4>
@@ -91,7 +112,7 @@
         </div>
         <div class="col-lg-4 col-md-6 text-center">
           <div class="service-box">
-            <img src="img/img_value_allforone.svg">
+            <img  class="career-value" src="img/allforone.png">
             <i class="text-primary sr-icons"></i>
             <hr class="primary">
             <h4>All For One</h4>
@@ -100,7 +121,7 @@
         </div>
         <div class="col-lg-4 col-md-6 text-center">
           <div class="service-box">
-            <img src="img/img_value_beprofessional.svg">
+            <img  class="career-value" src="img/beprofessional.png">
             <i class="text-primary sr-icons"></i>
             <hr class="primary">
             <h4>Be Professional</h4>
@@ -111,66 +132,9 @@
     </div>
   </section>
 
-  <!-- <section id="staff">
-    <div class="container">
-      <div class=row>
-        <div class="col-lg-8 col-lg-offset-2">
 
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img class="people" src="img/people_photos/Dj.jpg">
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-6">
-              <h3>Dj Aldredge</h3>
-              <h4>Customer Ops</h4>
-              <h4>San Francisco, US</h4>
-              <p class="profp" align="justify">“I love Mercari. Mercari’s awesome. There’s so much diversity, there’s so many new people to meet. I just came from Japan and I got to be in the culture and I got to learn the culture and learn where Mercari actually originated from and the core values. And I just love it. It’s great.”<br>- Disputes</p>
-            </div>
-          </div>
 
-          <div class="row people">
-            <div class="col-lg-8 col-md-8 col-sm-6">
-              <h3>Puneet Shah</h3>
-              <h4>Product Team</h4>
-              <h4>San Francisco, US</h4>
-              <p class="profp" align="justify">"If you enjoy building interesting products, Mercari is a great place to make an impact. With a small but growing team, I have had the opportunity to work on features for almost every aspect of our product from our mobile apps down to our internal tools." <br>- (2.5-3 years) CX trainer</p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img class="people" src="img/puneet.jpg">
-            </div>
-          </div>
-
-          <div class="row people">
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img class="people" src="img/people_photos/Nate.jpg">
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-6">
-              <h3>Nate Sears</h3>
-              <h4>Customer Experience</h4>
-              <h4>San Francisco, US</h4>
-              <p class="profp" align="justify">“It’s great! My co-workers are some of my best friends, so it’s been really great getting to know them. And it’s been a lot of fun going to Portland.” <br>- (2.5-3 years) CX trainer</p>
-            </div>
-          </div>
-
-          <div class="row people">
-
-            <div class="col-lg-8 col-md-8 col-sm-6">
-              <h3>Vanessa Ng</h3>
-              <h4>Design Team</h4>
-              <h4>San Francisco, US</h4>
-              <p class="profp" align="justify">Working on the design team has been really fulfilling with great mentorship with great mentorship and very collaborative, hands-on experience from day one. Because Mercari gives interns a lot of autonomy, I also had the opportunity to lead design projects from concept to launch. Overall, it's tons of fun (and Japanese snacks)!</p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-              <img class="people right" src="img/people_photos/Vanessa.jpg">
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section> -->
-
-  <section style="background-color:#41395A">
+  <section id="career-quote">
 
   <div class="container" style="height: 500px">
   <div class="row people">
@@ -181,6 +145,8 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
       </ol>
 
     <!-- Wrapper for slides -->
@@ -188,14 +154,19 @@
 
       <div class="item active">
         <div class="row">
-          <img class="career-people col-lg-4" src="img/carousel/dj.png">
-          <div class="col-lg-8">
-
-
-          <p style="color:white; font-size:24px;"><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i><br>Mercari’s awesome. There’s so much diversity, and there’s so many new people to meet. I just came from Japan, and I got to learn the culture and where Mercari actually originated from and the core values. And I just love it!</p>
-
+          <div class="col-lg-6" align="center">
+          <img class="career-people" src="img/carousel/dj.png">
           <h3 class="career-people">Dj Aldredge</h3>
-          <h4 class="career-people">Customer Operations | San Francisco, US</h4>
+          <h4 class="career-people">Trust & Safety | San Francisco, US</h4>
+          </div>
+
+          <div class="col-lg-6 career-quote">
+                    <i class="fa fa-quote-left fa-3x" style="color:white;" aria-hidden="true"></i>
+          <p class="career-quote" style="position:absolute; top:20%;">Mercari’s awesome. There’s so much diversity, and there’s so many new people to meet. I just came from Japan, and I got to learn the culture and where Mercari actually originated from and the core values. And I just love it!</p>
+
+            <i class="fa fa-quote-right fa-3x pull-right" style="color:white;
+         position:absolute; bottom:0px; right:20px;" aria-hidden="true"></i>
+
         </div>
       </div>
     </div>
@@ -203,26 +174,36 @@
 
       <div class="item">
         <div class="row">
-        <img  class="career-people col-lg-4" src="img/carousel/puneet.png">
-        <div class="col-lg-8">
-
-        <p style="color:white; font-size:24px;"><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i><br>If you enjoy building interesting products, Mercari is a great place to make an impact. With a small but growing team, I have had the opportunity to work on features for almost every aspect of our product from our mobile apps down to our internal tools.</p>
-
+          <div class="col-lg-6" align="center">
+        <img class="career-people" src="img/carousel/puneet.png">
         <h3 class="career-people">Puneet Shah</h3>
         <h4 class="career-people">Product | San Francisco, US</h4>
       </div>
+
+        <div class="col-lg-6  career-quote">
+        <i class="fa fa-quote-left fa-3x" style="color:white" aria-hidden="true"></i>
+
+        <p class="career-quote" style="position:absolute; top:20%;">If you enjoy building interesting products, Mercari is a great place to make an impact. With a small but growing team, I have had the opportunity to work on features for almost every aspect of our product from our mobile apps down to our internal tools.</p>
+
+        <i class="fa fa-quote-right fa-3x pull-right" style="color:white; position:absolute; bottom:0px; right:20px;" aria-hidden="true"></i>
+
+      </div>
+
       </div>
       </div>
 
       <div class="item">
         <div class="row">
-        <img class="career-people col-lg-4" src="img/carousel/nate.png">
+          <div class="col-lg-6" align="center">
+        <img class="career-people" src="img/carousel/nate.png">
+        <h3 class="career-people">Nate Sears</h3>
+        <h4 class="career-people">Customer Operations | San Francisco, US</h4>
+      </div>
+        <div class="col-lg-6 career-quote">
+                  <i class="fa fa-quote-left fa-3x" style="color:white" aria-hidden="true"></i>
+          <p class="career-quote" style="position:absolute; top:30%" >It’s great! My co-workers are some of my best friends, so it’s been really great getting to know them. And it’s been a lot of fun going to Portland.</p>
+          <i class="fa fa-quote-right fa-3x pull-right" style="color:white; position:absolute; bottom:0px; right:20px;" aria-hidden="true"></i>
 
-        <div class="col-lg-8">
-          <p style="color:white; font-size:24px;" ><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i><br>It’s great! My co-workers are some of my best friends, so it’s been really great getting to know them. And it’s been a lot of fun going to Portland.</p>
-
-          <h3 class="career-people">Nate Sears</h3>
-          <h4 class="career-people">Customer Operations | San Francisco, US</h4>
 
         </div>
 
@@ -231,25 +212,60 @@
 
       <div class="item">
         <div class="row">
-        <img class="career-people col-lg-4" src="img/carousel/vanessa.png">
-        <div class="col-lg-8">
-
-          <p style="color:white;font-size:24px;"><i class="fa fa-quote-left fa-2x" aria-hidden="true"></i><br>Working on the design team has been really fulfilling with great mentorship and very collaborative, hands-on experience from day one. Because Mercari gives interns a lot of autonomy, I also had the opportunity to lead design projects from concept to launch. Overall, it's tons of fun!</p>
-
-          <h3 class="career-people">Vanessa Ng</h3>
-          <h4 class="career-people">Design | San Francisco, US</h4>
+          <div class="col-lg-6" align="center">
+        <img class="career-people" src="img/carousel/vanessa.png">
+        <h3 class="career-people">Vanessa Ng</h3>
+        <h4 class="career-people">Design | San Francisco, US</h4>
+      </div>
+      <div class="col-lg-6 career-quote">
+                <i class="fa fa-quote-left fa-3x" style="color:white" aria-hidden="true"></i>
+        <p class="career-quote" style="position:absolute; top:15%" >Working on the design team has been really fulfilling with great mentorship and very collaborative, hands-on experience from day one. Because Mercari gives interns a lot of autonomy, I also had the opportunity to lead design projects from concept to launch. Overall, it's tons of fun!</p>
+        <i class="fa fa-quote-right fa-3x pull-right" style="color:white; position:absolute; bottom:0px; right:20px;" aria-hidden="true"></i>
 
         </div>
       </div>
       </div>
+
+      <div class="item">
+        <div class="row">
+          <div class="col-lg-6" align="center">
+        <img class="career-people" src="img/carousel/kevin.png">
+        <h3 class="career-people">Kevin Linn</h3>
+        <h4 class="career-people">Trust & Safety | San Francisco, US</h4>
+      </div>
+      <div class="col-lg-6 career-quote">
+                <i class="fa fa-quote-left fa-3x" style="color:white" aria-hidden="true"></i>
+        <p class="career-quote" style="position:absolute; top:30%" >My experience has been good! I've gotten a lot of opportunities to go to a lot of different places, and working with an international team has been fun.</p>
+        <i class="fa fa-quote-right fa-3x pull-right" style="color:white; position:absolute; bottom:0px; right:20px;" aria-hidden="true"></i>
+
+        </div>
+      </div>
+      </div>
+
+      <div class="item">
+        <div class="row">
+          <div class="col-lg-6" align="center">
+        <img class="career-people" src="img/carousel/victoria.png">
+        <h3 class="career-people">Victoria Kavetskaya</h3>
+        <h4 class="career-people">Accounting | San Francisco, US</h4>
+      </div>
+      <div class="col-lg-6 career-quote">
+                <i class="fa fa-quote-left fa-3x" style="color:white" aria-hidden="true"></i>
+        <p class="career-quote" style="position:absolute; top:20%" >The working environment at Mercari is very fast paced, even in accounting, which might be quite challenging, but it gives you plenty of opportunities to learn, grow and explore your talents. My team is quite small, so I feel everyone’s contribution really matters!</p>
+        <i class="fa fa-quote-right fa-3x pull-right" style="color:white; position:absolute; bottom:0px; right:20px;" aria-hidden="true"></i>
+
+        </div>
+      </div>
+      </div>
+
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="background:none; position:absolute; left:-100px;">
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev" style="background:none; position:absolute; left:-200px;">
       <span class="glyphicon glyphicon-chevron-left"></span><!--
       <span class="sr-only">Previous</span> -->
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background: none; position:absolute; right:-100px;">
+    <a class="right carousel-control" href="#myCarousel" data-slide="next" style="background: none; position:absolute; right:-200px;">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -278,8 +294,8 @@
     <div class="text-center container">
       <!-- I take out the container here. -->
       <h2>Perks and Benefits</h2>
-      <hr style="margin-bottom:40px" class="primary">
-      <div class="row">
+      <hr style="margin-bottom:40px;" class="primary">
+      <div class="row" style="margin-bottom:40px;">
 
         <div class="col-lg-offset-1 col-lg-2">
               <img class="perks" src="img/perks/perk1.png">
@@ -351,7 +367,7 @@
   <section id="contact">
     <div class="container">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-offset-1 col-lg-8">
         <h2 class="section-heading">Contact Us</h2>
         <p>If you have questions about your orders, please contact us through the app.
         </p>
@@ -412,7 +428,7 @@
       </ul>
     </nav>
     <a href="https://www.mercari.com/" class="footer-logo">
-      <img src="img/mercarilogo.svg" width="124" height="33" alt="mercari">
+      <img src="img/img_footer_mercarilogo.png" width="124" height="33" alt="mercari">
     </a>
     <p class="footer-copyright">
       <small>&copy; 2017 Mercari</small>
@@ -442,6 +458,28 @@
   <script src="js/creative.min.js"></script>
 
   <script>
+  $( document ).ready(function() {
+      $("#nav_float").hide();
+  });
+
+  var menuBar = $("#nav_float").offset().top;
+  var firstRun = true;
+
+  $(window).scroll(function() {
+
+      var currentScroll = $(window).scrollTop();
+
+      if (currentScroll < menuBar) {
+          $("#nav_float").removeClass("navbar-fixed-top");
+          $("#nav_float").hide();
+      } else {
+          $("#nav_float").addClass("navbar-fixed-top");
+          $("#nav_float").show();
+      }
+
+
+  });
+
   </script>
 
 </body>
