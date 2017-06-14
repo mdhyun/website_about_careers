@@ -68,12 +68,18 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
-
   margin-top: 20px;
 }
 
+
+p.caption{
+font-weight:300;
+font-size: 12pt;
+}
+
+
 .centered{
-  margin: ;
+  margin: 0 auto;
 }
 
 .bg-primary {
@@ -726,9 +732,6 @@ div.founder{
   margin: 2px;
 }
 
-p.light{
-font-weight:200;
-}
 
 a.founder{
   color:black;
