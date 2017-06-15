@@ -32,6 +32,7 @@ hr {
 }
 
 hr.light {
+
   border-color: white;
 }
 a {
@@ -81,10 +82,15 @@ h3.light{
 p {
   font-family: 'Lato';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
   margin-top: 20px;
+  color:rgba(0,0,0,0.7);
+}
+
+.hp{
+  font-size: 22px;
 }
 
 .white{
@@ -151,7 +157,7 @@ div.div-navbar{
 
 }/* ie needs position:relative here*/
 #nav_static a{
-    color: rgba(247,69,91, 0.7);
+    color: rgb(247,69,91);
     /*color: #f7455b;*/
     float:left;
     text-align:center;
@@ -178,24 +184,26 @@ div.div-navbar{
 }
 #nav_float a {
   /*color: rgba(240,95,64, 0.6);*/
-  color: rgba(247,69,91, 0.7);
+  color: rgb(247,69,91);
 }
 #nav_float a:hover{
-  color: #f7455b;
+  color: #41395A;
 }
 /* END NAV_FLOAT */
 
 /* START NUM_ANIMATE */
-.num_animate {
+.num_animate_wrapper {
   /*color: rgba(240,95,64, 0.6); /*red*/
-  color: #24D0D9; /*mint*/
+  /*color: #47c2c8; /*mint*/
+  color:white;
   font-weight: 700;
   font-size: 52px;
 }
 
 .num_animate2 {
   /*color: rgba(240,95,64, 0.6); /*red*/
-  color: #24D0D9; /*mint*/
+  /*color: #47c2c8; /*mint*/
+  color: white;
   font-weight: 700;
   font-size: 52px;
 }
@@ -683,20 +691,22 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl-jobs {
   /*background-color: rgb(247,69,91);*/
-  background-color: #f85d71;
+  background-color: #f85d71 !important;
   padding: 15px 30px;
   font-size: 16px;
   font-weight: 500;
 
 }
 .btn-xl-jobs:hover {
-    background-color: #f7455b;
+    background-color: #f7455b  !important;
 }
 
 
 .btn-xl-jobs:active {
-  background-color: #ae98e9 !important;
+  background-color: #41395A !important;
 }
+
+
 
 ::-moz-selection {
   color: white;
